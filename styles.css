@@ -55,7 +55,7 @@ header nav button:hover {
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     margin: 10px;
-    padding: 20px;
+    padding: 50px;
     flex: 1 1 calc(30% - 40px);
     text-align: center;
     transition: transform 0.2s;
@@ -88,4 +88,9 @@ button {
 
 button:hover {
     background: #0056b3;
+}
+
+.card-image {
+    width: 300px;
+    height: 400px;
 }
